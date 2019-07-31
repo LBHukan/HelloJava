@@ -7,6 +7,7 @@ public class Testt {
 		String resul;
 		
 		Scanner sc = new Scanner(System.in);
+		System.out.println("Digite um numero: ");
 		num = sc.nextInt();
 		
 		resul = (num < 0)? "Negativo" : "Positivo";
