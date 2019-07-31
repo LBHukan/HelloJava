@@ -9,9 +9,7 @@ public class Testt {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Digite um numero: ");
 		num = sc.nextInt();
-		
-		resul = (num < 0)? "Negativo" : "Positivo";
-		System.out.println(resul);
+		System.out.println((num < 0)? "Negativo" : "Positivo");
 		
 		sc.close();
 	}
